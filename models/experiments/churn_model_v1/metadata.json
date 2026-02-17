@@ -1,6 +1,6 @@
 {
   "model_version": "v1",
-  "training_date": "2026-02-11",
+  "training_date": "2026-02-17",
   "split_strategy": "time-aware (tenure-based)",
   "class_weight": "balanced",
   "features_used": [
