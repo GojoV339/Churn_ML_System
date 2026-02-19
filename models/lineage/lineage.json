@@ -13,5 +13,13 @@
       "roc_auc": 0.8225479622185181,
       "pr_auc": 0.22453702005715698
     }
+  },
+  {
+    "model_version": "churn_model_v1",
+    "timestamp": "2026-02-19T17:46:29.012304+00:00",
+    "dataset": "unknown",
+    "trigger": "drift_retraining",
+    "parents_model": "20260218_102808",
+    "metrics": {}
   }
 ]
