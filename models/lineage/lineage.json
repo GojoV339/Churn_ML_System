@@ -21,5 +21,20 @@
     "trigger": "drift_retraining",
     "parents_model": "20260218_102808",
     "metrics": {}
+  },
+  {
+    "model_version": "churn_model_20260221_213555",
+    "timestamp": "2026-02-21T16:06:43.449136+00:00",
+    "dataset": "data/Telco_customer_churn_raw.csv",
+    "trigger": "drift_retraining",
+    "parents_model": "v1",
+    "metrics": {
+      "accuracy": 0.9226401703335699,
+      "precision": 0.2777777777777778,
+      "recall": 0.10752688172043011,
+      "f1_score": 0.15503875968992248,
+      "roc_auc": 0.8225479622185181,
+      "pr_auc": 0.22453702005715698
+    }
   }
 ]
