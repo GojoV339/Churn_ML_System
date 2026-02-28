@@ -51,5 +51,20 @@
       "roc_auc": 0.8437837042847338,
       "pr_auc": 0.26209888849180935
     }
+  },
+  {
+    "model_version": "churn_model_20260227_131235",
+    "timestamp": "2026-02-28T11:29:29.223871+00:00",
+    "dataset": "data/Telco_customer_churn_raw.csv",
+    "trigger": "drift_retraining",
+    "parents_model": null,
+    "metrics": {
+      "accuracy": 0.92902767920511,
+      "precision": 0.34782608695652173,
+      "recall": 0.08602150537634409,
+      "f1_score": 0.13793103448275862,
+      "roc_auc": 0.8437837042847338,
+      "pr_auc": 0.26209888849180935
+    }
   }
 ]
